@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  context-path: /api
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.95.197.20:3306/orange_passpord
+      username: root
+      password: 123456
+jedis :
+  pool :
+    host : 127.0.0.1
+    port : 9600
+    config :
+      maxTotal: 100
+      maxIdle: 10
+      maxWaitMillis : 100000

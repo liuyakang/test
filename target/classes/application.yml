@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  context-path: /api
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.95.197.20:3306/db_person
+      username: root
+      password: 123456
+
